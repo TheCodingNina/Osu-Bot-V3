@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{ef80603b-f0e2-4777-8bd9-7ea1c948bec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{a9bf13bb-832d-47f5-a42f-836d0ea30761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Content">
+      <UniqueIdentifier>{5155006f-40e7-46cc-9a3f-f12bb172d028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content">
+      <UniqueIdentifier>{3603702f-0b66-46ef-95ce-bd40dd719cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Icons">
+      <UniqueIdentifier>{29f2df2d-c7f0-49c1-a4a5-7dd2d1db214e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files">
+      <UniqueIdentifier>{85b14b13-34a0-4c24-bdfd-0ad45b35c505}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Content\UI Elements">
+      <UniqueIdentifier>{da66b084-9586-4d7f-89dd-b18fe9265b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content\UI Elements">
+      <UniqueIdentifier>{afada04d-ce1f-4880-9d6e-9ea0ea8d8d57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Content\OsuBot">
+      <UniqueIdentifier>{4467641c-5c85-43db-b2fa-2d802ee5b276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Content\OsuBot">
+      <UniqueIdentifier>{b9b28961-7696-456e-b59e-36de4319a07e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\App.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Pch.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\AppMain.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DeviceResources.cpp">
+      <Filter>Source Files\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\UI Elements\StaticText.cpp">
+      <Filter>Source Files\Content\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\OsuBot.cpp">
+      <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\OsuBot\Beatmap.cpp">
+      <Filter>Source Files\Content\OsuBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\OsuBot\SigScan.cpp">
+      <Filter>Source Files\Content\OsuBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\OsuBot\MovementModes.cpp">
+      <Filter>Source Files\Content\OsuBot</Filter>
+    </ClCompile>
+    <ClCompile Include="Content\OsuBot\SongsSelection.cpp">
+      <Filter>Source Files\Content\OsuBot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Pch.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Targetver.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\Resources\Resource.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\AppMain.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\StepTimer.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DeviceResources.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\UI Elements\StaticText.h">
+      <Filter>Header Files\Content\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Size.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\OsuBot.h">
+      <Filter>Header Files\Content</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\OsuBot\MovementModes.h">
+      <Filter>Header Files\Content\OsuBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Vec2f.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\ConfigurationIni.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\OsuBot\Beatmap.h">
+      <Filter>Header Files\Content\OsuBot</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\SplitString.h">
+      <Filter>Header Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Content\OsuBot\SigScan.h">
+      <Filter>Header Files\Content\OsuBot</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Content\Resources\Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Content\Resources\Icons\Icon.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+    <Image Include="Content\Resources\Icons\IconSm.ico">
+      <Filter>Resource Files\Icons</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\Config.ini">
+      <Filter>Project Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

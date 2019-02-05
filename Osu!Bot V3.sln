@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Osu!Bot V3", "Osu!Bot V3\Osu!Bot V3.vcxproj", "{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Debug|Win32.Build.0 = Debug|Win32
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Debug|x64.ActiveCfg = Debug|x64
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Debug|x64.Build.0 = Debug|x64
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Release|Win32.ActiveCfg = Release|Win32
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Release|Win32.Build.0 = Release|Win32
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Release|x64.ActiveCfg = Release|x64
+		{9AC3DEA2-E3B6-4B92-AF1B-12E75D961DCD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D8D7AF1-789D-433C-A24A-DF2D5333A90C}
+	EndGlobalSection
+EndGlobal
