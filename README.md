@@ -10,7 +10,8 @@ I DO NOT, I REPEAT, I DO NOT TAKE RESPONSABILITY IF YOU GET YOUR ACCOUNT BANNED/
 *COMING SOON*
 
 ## Downloadable Executables
-*COMING SOON*
+[Latest release](https://github.com/DDDinggo22/Osu-Bot-V3/releases/tag/v190205 "Goto latest release")  
+[Releases](https://github.com/DDDinggo22/Osu-Bot-V3/releases "All releases")
 
 ## Usage Instructions
 0. Unzip anywhere you like.
