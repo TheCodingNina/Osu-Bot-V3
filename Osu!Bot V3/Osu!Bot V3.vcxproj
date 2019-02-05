@@ -149,7 +149,11 @@
       <AdditionalDependencies>d2d1.lib;dwrite.lib;windowscodecs.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(ProjectDir)Common\Config.ini" "$(OutDir)"</Command>
+      <Command>copy "$(ProjectDir)Common\Config.ini" "$(OutDir)"
+
+mkdir "$(SolutionDir)Output\$(ProjectName)"
+copy "$(OutDir)*.exe" "$(SolutionDir)Output\$(ProjectName)\*.exe"
+copy "$(OutDir)Config.ini" "$(SolutionDir)Output\$(ProjectName)\*"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -170,7 +174,11 @@
       <AdditionalDependencies>d2d1.lib;dwrite.lib;windowscodecs.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(ProjectDir)Common\Config.ini" "$(OutDir)"</Command>
+      <Command>copy "$(ProjectDir)Common\Config.ini" "$(OutDir)"
+
+mkdir "$(SolutionDir)Output\$(ProjectName)"
+copy "$(OutDir)*.exe" "$(SolutionDir)Output\$(ProjectName)\*.exe"
+copy "$(OutDir)Config.ini" "$(SolutionDir)Output\$(ProjectName)\*"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
